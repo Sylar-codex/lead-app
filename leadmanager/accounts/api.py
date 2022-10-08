@@ -13,7 +13,7 @@ class RegisterAPI(generics.GenericAPIView) :
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
         return Response({
-            "user": UserSerializer(user, context= self.get_serializer()).data,
+            "user": UserSerializer(user, context = self.get_serializer()).data,
             "token" : AuthToken.objects.create(user)[1]
         })
 
