@@ -1,1 +1,1 @@
-web: sh -c 'cd ./leadmanger/ && exec gunicorn leadmanger.wsgi --log-file -'
+web: --pythonpath leadmanger leadmanger.wsgi

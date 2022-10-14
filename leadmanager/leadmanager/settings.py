@@ -43,7 +43,15 @@ INSTALLED_APPS = [
     'frontend',
     'knox',
     'accounts',
+    'webpack_loader',
 ]
+
+WEBPACK_LOADER = {
+    'DEFAULT':{
+        'BUNDLE_DIR_NAME':'frontend/',
+        'STATS_FILE':os.path.join(BASE_DIR,'webpack-stats.json')
+    }
+}
 
 REST_FRAMEWORK = {
     'DEFAULT_AUNTHENTICATION_CLASSES' :

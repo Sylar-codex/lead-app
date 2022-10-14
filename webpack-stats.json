@@ -1,0 +1,18 @@
+{
+  "status": "done",
+  "assets": {
+    "main.09a8f0e39ad66ebedefc.js": {
+      "name": "main.09a8f0e39ad66ebedefc.js",
+      "path": "/Users/Sylar/Fullstack_c/leadmanager/frontend/static/frontend/main.09a8f0e39ad66ebedefc.js"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "/Users/Sylar/Fullstack_c/leadmanager/frontend/static/frontend/index.html"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main.09a8f0e39ad66ebedefc.js"
+    ]
+  }
+}

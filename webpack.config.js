@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const BundleTracker = require("webpack-bundle-tracker");
 
 module.exports = {
   watch: true,
@@ -30,6 +31,10 @@ module.exports = {
     maxAssetSize: 512000,
   },
   plugins: [
+    new BundleTracker({
+      path: __dirname,
+      filename: "./webpack-stats.json",
+    }),
     new HtmlWebpackPlugin({
       title: "Caching",
       filename: "index.html",
