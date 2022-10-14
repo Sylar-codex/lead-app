@@ -1,22 +1,18 @@
 {
   "status": "done",
   "assets": {
+    "main.09a8f0e39ad66ebedefc.js": {
+      "name": "main.09a8f0e39ad66ebedefc.js",
+      "path": "/Users/Sylar/Fullstack_c/leadmanager/frontend/static/frontend/main.09a8f0e39ad66ebedefc.js"
+    },
     "index.html": {
       "name": "index.html",
       "path": "/Users/Sylar/Fullstack_c/leadmanager/frontend/static/frontend/index.html"
-    },
-    "main.38451a4aa14e9635c191.js.LICENSE.txt": {
-      "name": "main.38451a4aa14e9635c191.js.LICENSE.txt",
-      "path": "/Users/Sylar/Fullstack_c/leadmanager/frontend/static/frontend/main.38451a4aa14e9635c191.js.LICENSE.txt"
-    },
-    "main.38451a4aa14e9635c191.js": {
-      "name": "main.38451a4aa14e9635c191.js",
-      "path": "/Users/Sylar/Fullstack_c/leadmanager/frontend/static/frontend/main.38451a4aa14e9635c191.js"
     }
   },
   "chunks": {
     "main": [
-      "main.38451a4aa14e9635c191.js"
+      "main.09a8f0e39ad66ebedefc.js"
     ]
   }
 }
