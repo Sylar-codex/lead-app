@@ -1,5 +1,10 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
   watch: true,
+  output: {
+    filename: "[name].[contenthash].js",
+  },
   module: {
     rules: [
       {
@@ -19,4 +24,15 @@ module.exports = {
       },
     ],
   },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "Caching",
+      filename: "index.html",
+    }),
+  ],
 };
