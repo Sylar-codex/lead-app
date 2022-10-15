@@ -1,1 +1,1 @@
-web: 'cd ./leadmanager/ && exec gunicorn leadmanager leadmanager.wsgi --log-file -'
+web:gunicorn leadmanager leadmanager.leadmanager.wsgi --log-file
